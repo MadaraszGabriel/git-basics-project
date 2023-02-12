@@ -12,13 +12,13 @@ body {
     background: url('assets/freedom.jpg') no-repeat center;
     background-size: cover;
     color: #333;
+
 }
 
 .wrapper {
     padding-top: 4rem;
     width: 90%;
     margin: 0 auto;
-    text-align: center;
 }
 
 .quote {
@@ -30,4 +30,31 @@ body {
     font-family: 'Crimson Text', serif;
     font-size: 1.5rem;
     font-style: italic;
+}
+
+.menu {
+    width: 40%;
+    /* background-color: aquamarine; */
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    margin: 0% 30%;
+    bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    color: ghostwhite;
+    /* background-color: antiquewhite; */
+    padding: 5px;
+}
+
+li {
+    padding: 0px 25px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    padding: 10px;
 }
