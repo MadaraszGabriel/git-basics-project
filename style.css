@@ -32,15 +32,11 @@ body {
     font-style: italic;
 }
 
+/*--------------------------------------------------  */
 .menu {
-    width: 40%;
-    /* background-color: aquamarine; */
-    padding-top: 35px;
-    display: flex;
-    justify-content: center;
     position: fixed;
-    margin: 0% 30%;
-    bottom: 20px;
+    bottom: 0;
+    width: 100%;
 }
 
 ul {
@@ -48,13 +44,15 @@ ul {
     display: flex;
     justify-content: center;
     color: ghostwhite;
-    /* background-color: antiquewhite; */
     padding: 5px;
 }
 
 li {
-    padding: 0px 25px;
     border-radius: 50%;
-    background-color: blueviolet;
-    padding: 10px;
+    background-color: rgba(200, 200, 200, .6);
+    padding: 5px;
+}
+
+a:link {
+    text-decoration: none;
 }
